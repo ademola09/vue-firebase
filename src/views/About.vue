@@ -1,5 +1,12 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="about container">
+    <Navbar></Navbar>
+    <h3>This is an about page</h3>
   </div>
 </template>
+
+<style scoped lang="scss">
+.about {
+  padding: 4rem 0;
+}
+</style>
