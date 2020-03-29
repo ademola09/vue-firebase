@@ -76,7 +76,7 @@
   .sidebar-wrapper .sidebar-content {
     max-height: calc(100% -35px);
     height: calc(100% - 35px);
-    overflow-y: scroll;
+    // overflow-y: scroll;
     position: relative; }
     .sidebar-wrapper .sidebar-content.desktop {
       overflow-y: hidden; }
@@ -443,7 +443,7 @@ body {
 
 /*----------sidebar background images --------------*/
 .sidebar-bg.bg1 .sidebar-wrapper {
-  background-image: url(/img/bg5.jpg); }
+  background-image: url(/img/bg6.jpg); }
 
 /*---- border-radius ------*/
 .boder-radius-on .sidebar-header .user-pic {

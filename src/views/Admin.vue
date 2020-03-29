@@ -22,7 +22,7 @@
           <div class="sidebar-item sidebar-header d-flex flex-nowrap">
             <div class="user-pic">
               <img
-                src="/img/user2.jpg"
+                src="/img/user2.webp"
                 class="img-responsive img-rounded"
                 alt="User picture"
               />
@@ -63,27 +63,27 @@
                 <span>General</span>
               </li>
               <li class>
-                <a href="#">
+                <router-link to="/admin/overview">
                   <i class="fa fa-chart-line"></i>
                   <span class="menu-text">Overview</span>
-                </a>
+                </router-link>
               </li>
               <li class>
-                <a href="#">
+                <router-link to="/admin/products">
                   <i class="fa fa-product-hunt"></i>
                   <span class="menu-text">Products</span>
                   <span class="badge badge-pill badge-warning">New</span>
-                </a>
+                </router-link>
               </li>
               <li class>
-                <a href="#">
+                <router-link to="/admin/orders">
                   <i class="fa fa-shopping-cart"></i>
                   <span class="menu-text">Orders</span>
                   <span class="badge badge-pill badge-danger">3</span>
-                </a>
+                </router-link>
               </li>
               <li class>
-                <a href="#">
+                <a href="#" @click="logout()">
                   <i class="fa fa-power-off"></i>
                   <span class="menu-text">Logout</span>
                 </a>
@@ -96,11 +96,7 @@
       <!-- page-content  -->
       <main class="page-content pt-2">
         <div id="overlay" class="overlay"></div>
-        <div class="container-fluid p-5">
-          <div class="row">
-            <h3>Welcome To the Admin Page</h3>
-          </div>
-        </div>
+        <router-view />
       </main>
       <!-- page-content" -->
     </div>
@@ -110,22 +106,24 @@
 
 <script>
 // @ is an alias to /src
-// import Hero from "@/components/Hero.vue";
-
+import { fb } from "../firebase";
 export default {
   name: "Admin",
-  components: {
-    // Hero
-  },
   methods: {
     toggleMenu() {
       $(".page-wrapper").toggleClass("toggled");
+    },
+    logout() {
+      fb.auth()
+        .signOut()
+        .then(() => {
+          this.$router.replace("/");
+        })
+        .catch(err => {
+          console.log(err);
+        });
     }
   }
 };
 </script>
-<style scoped lang="scss">
-.admin {
-  padding: 3rem 0;
-}
-</style>
+<style scoped lang="scss"></style>

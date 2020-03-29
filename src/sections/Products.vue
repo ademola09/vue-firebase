@@ -2,7 +2,7 @@
   <div class="products" id="products">
     <div class="container pt-4">
       <h1 class="text-center">Our Products</h1>
-      <div class="row ">
+      <div class="row">
         <div class="col-md-4">
           <div class="card product-item">
             <img src="/img/sb2_Pro_6.png" alt="..." class="card-img-top" />
@@ -30,7 +30,11 @@
         </div>
         <div class="col-md-4">
           <div class="card product-item">
-            <img src="/img/surface-studio-2.jpg" alt="..." class="card-img-top" />
+            <img
+              src="/img/surface-studio-2.jpg"
+              alt="..."
+              class="card-img-top"
+            />
             <div class="card-body">
               <h5 class="card-title">Surface Studio 2</h5>
               <p class="card-text">
