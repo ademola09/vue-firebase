@@ -2,19 +2,11 @@
   <div class="hello">
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#">Vue Shop</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarsExampleDefault"
-        aria-controls="navbarsExampleDefault"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsApp" aria-controls="navbarsApp" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <div class="collapse navbar-collapse" id="navbarsApp">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <router-link to="/" class="nav-link">Home</router-link>

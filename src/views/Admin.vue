@@ -106,7 +106,7 @@ export default {
         .then(() => {
           this.$router.replace("/");
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     }
