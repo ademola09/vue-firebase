@@ -5,15 +5,10 @@
         <div class="col-md-5">
           <div class="hero-content">
             <h1 class="hero-title">Vue Shop for Developers</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Incidunt, deleniti?
-            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, deleniti?</p>
             <div class="hero-btn mt-5">
               <button class="btn custom-btn btn-info mr-4">Explore</button>
-              <button class="btn custom-btn btn-outline-secondary">
-                Products
-              </button>
+              <button class="btn custom-btn btn-outline-secondary">Products</button>
             </div>
           </div>
         </div>

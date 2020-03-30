@@ -21,8 +21,7 @@
             <div class="card-body">
               <h5 class="card-title">Surface Laptop 2</h5>
               <p class="card-text">
-                Style and speed. Go beyond the traditional with new Surface
-                Laptop
+                Style and speed. Go beyond the traditional with new Surface Laptop
               </p>
               <a href="#" class="btn btn-primary">Add to Cart</a>
             </div>
@@ -30,11 +29,7 @@
         </div>
         <div class="col-md-4">
           <div class="card product-item">
-            <img
-              src="/img/surface-studio-2.jpg"
-              alt="..."
-              class="card-img-top"
-            />
+            <img src="/img/surface-studio-2.jpg" alt="..." class="card-img-top" />
             <div class="card-body">
               <h5 class="card-title">Surface Studio 2</h5>
               <p class="card-text">

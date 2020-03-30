@@ -27,19 +27,8 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control form-control-sm mr-sm-2"
-            type="text"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <a
-            class="btn btn-sm btn-outline-info my-2 my-sm-0"
-            data-toggle="modal"
-            data-target="#login"
-          >
-            Login
-          </a>
+          <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+          <a class="btn btn-sm btn-outline-info my-2 my-sm-0" data-toggle="modal" data-target="#login">Login</a>
         </form>
       </div>
     </nav>

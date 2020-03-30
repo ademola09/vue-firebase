@@ -1,4 +1,5 @@
-import firebase from 'firebase'
+import firebase from "firebase";
+require("firebase/firestore");
 
 // Initialize Firebase
 const firebaseConfig = {
@@ -12,4 +13,6 @@ const firebaseConfig = {
   measurementId: "G-376QKWBTY6"
 };
 
-export const fb = firebase.initializeApp(firebaseConfig);
+const fb = firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+export { fb, db };

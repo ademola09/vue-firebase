@@ -10,13 +10,8 @@
         </div>
         <div class="col-md-6">
           <h3>Learn More About us</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-            praesentium!
-          </p>
-          <button class="btn custom-btn btn-outline-primary mr-4">
-            Browse Products
-          </button>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, praesentium!</p>
+          <button class="btn custom-btn btn-outline-primary mr-4">Browse Products</button>
         </div>
       </div>
     </div>
@@ -39,8 +34,4 @@ export default {
   }
 };
 </script>
-<style scoped lang="scss">
-.home {
-  padding: 3rem 0;
-}
-</style>
+<style scoped lang="scss"></style>

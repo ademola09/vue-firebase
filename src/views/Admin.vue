@@ -1,12 +1,7 @@
 <template>
   <div class="admin">
     <div class="page-wrapper default-theme sidebar-bg bg1 toggled">
-      <a
-        href="#"
-        @click="toggleMenu"
-        class="btn btn-sm btn-dark"
-        id="show-sidebar"
-      >
+      <a href="#" @click="toggleMenu" class="btn btn-sm btn-dark" id="show-sidebar">
         <i class="fas fa-bars"></i>
       </a>
       <nav id="sidebar" class="sidebar-wrapper">
@@ -21,11 +16,7 @@
           <!-- sidebar-header  -->
           <div class="sidebar-item sidebar-header d-flex flex-nowrap">
             <div class="user-pic">
-              <img
-                src="/img/user2.webp"
-                class="img-responsive img-rounded"
-                alt="User picture"
-              />
+              <img src="/img/user2.webp" class="img-responsive img-rounded" alt="User picture" />
             </div>
             <div class="user-info">
               <span class="user-name">
@@ -43,11 +34,7 @@
           <div class="sidebar-item sidebar-search">
             <div>
               <div class="input-group">
-                <input
-                  type="text"
-                  class="form-control search-menu"
-                  placeholder="Search..."
-                />
+                <input type="text" class="form-control search-menu" placeholder="Search..." />
                 <div class="input-group-append">
                   <span class="input-group-text">
                     <i class="fa fa-search" aria-hidden="true"></i>

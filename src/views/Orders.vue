@@ -8,7 +8,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, veritatis.</p>
           </div>
           <div class="col-md-6">
-            <img src="/img/orders.fw.png" class="img-fluid" alt="Orders">
+            <img src="/img/orders.fw.png" class="img-fluid" alt="Orders" />
           </div>
         </div>
       </div>
